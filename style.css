@@ -1,0 +1,90 @@
+body{
+    background-color: whitesmoke;
+}
+
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size:30px;
+
+}
+.cardContainer {
+    margin-top:20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+  }
+  
+  .card {
+    position: relative;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    cursor: pointer;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color:#e8e8e8;
+}
+  
+  .city {
+    font-weight: 1000;
+    font-size: 2rem;
+    letter-spacing: 1.2px;
+    color: black;
+  }
+  
+  .weather {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 1.2px;
+    color:black;
+  }
+  
+  .temp {
+    font-size: 3rem;
+    color: black;
+    font-weight: 900;
+  }
+  
+  .minmaxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .min,.max {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 4px;
+  }
+  
+  .max {
+    align-items: flex-start;
+    border-left: 3px solid white;
+  }
+  
+  .maxHeading,.minHeading {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: black;
+  }
+  
+  .maxTemp,.minTemp {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color:grey;
+  }
+  
